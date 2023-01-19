@@ -1,15 +1,43 @@
-//1) primero creo una variable en la que metere el json .
-const variableJson= new XMLHttpRequest();
-//2)abro una nueva solicitud utilizando el método open()
-variableJson.open('GET','jason.json', true);
-//3) cuando cargue hare:
-variableJson.onload =function(){
-    //en caso de que todo sea ok o 200, recuperare el contenido de la respuesta el cual convertire a json
-    if(this.status ===200){
-        //Es necesario convertir el json a un objeto de javascript con la funcion parse() al que llamare animal
-        let animal= jason.parse(this.responseText);
-        document.getElementById('respuesta').innerText=animal;
-    }
-    //para enviar la solicitud get
-    animal.send();
+console.log("Esto funciona");
+//creo una variable donde metere los datos
+var app={};
+//ahora el callback o funcion donde definiria que haria
+//si tuviera los datos
+var miLlamada=function(datos){//js moderno seria: var miLlamada=datos=>{}
+   console.log(datos);
+   app.animales=datos;//aqui meto los datos en la funcion app
+   var html="";
+   html+=`<h1>Lista nimales</h1>`;
+   //una funcion por caDA elemento de mi mascota
+   //js antiguo: app.animales.map(function(animales){})
+   //js moderno:
+   app.animales.map(animal=>{
+    //por cada animal pues pondre imagen, +=para sumarle
+    html+="<h3>Nombre: "+animal.especie+"</h3> "+"<img src='"+animal.imagen+"'></img>";
+    html+="<hr>";
+    })
+   document.getElementById("resultado").innerHTML=html;//meto la variable
+};
+
+
+document.getElementById("crear").addEventListener("click",crear);
+function crear(){
+    sessionStorage.setItem("usuario","email");
 }
+function mostrar(){
+    alert (document.cookie);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
