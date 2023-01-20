@@ -5,7 +5,7 @@
     "edad": 3,
     "color": "marron",
     "veneno":true,
-    "imagen":"/ejercicioJS/animales/spider.jpg",
+    "imagen":"./animales/spider.jpg",
     "caracteristicas": [
       "tejedora",
       "veneno"
@@ -20,7 +20,7 @@
     "color": "negro",
     "familia": "insecto",
     "veneno":false,
-    "imagen":"/ejercicioJS/animales/ant.jpg",
+    "imagen":"./animales/ant.jpg",
     "caracteristicas": [],
     "carnivoro":true,
     "herbivoro":false
@@ -31,7 +31,7 @@
     "edad": 4,
     "color": "negro",
     "familia": "insecto",
-    "imagen":"/ejercicioJS/animales/scorpion.jpg",
+    "imagen":"./animales/scorpion.jpg",
     "veneno":true,
     "caracteristicas": [
       "duro",
@@ -50,7 +50,7 @@
     "familia": "mamifero",
     "edad":3,
     "color":"blanco",
-    "imagen":"/ejercicioJS/animales/lobo.jpg",
+    "imagen":"./animales/lobo.jpg",
     "dieta":{
       "carnivoro":true,
       "herbivoro":false
@@ -62,7 +62,7 @@
     "familia": "mamifero",
     "edad":2,
     "color":["blanco","negro"],
-    "imagen":"/ejercicioJS/animales/cow.jpg",
+    "imagen":"./animales/cow.jpg",
     "dieta":{
       "carnivoro":false,
       "herbivoro":true
@@ -74,7 +74,7 @@
     "familia": "mamifero",
     "edad":2,
     "color":["rosa"],
-    "imagen":"/ejercicioJS/animales/pig.jfif",
+    "imagen":"./animales/pig.jfif",
     "dieta":{
       "carnivoro":true,
       "herbivoro":true

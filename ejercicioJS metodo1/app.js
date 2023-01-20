@@ -27,7 +27,6 @@ window.onload=()=>{                                            //tipo click
                 })
                 document.getElementById('animales1').innerHTML=html;
             }
-
         }
         variableXhr.send();
     })

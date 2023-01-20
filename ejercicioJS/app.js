@@ -1,4 +1,9 @@
-console.log("Esto funciona");
+/*
+element
+elements.... con una s devuelve un array
+*/
+
+
 //creo una variable donde metere los datos
 var app={};
 //ahora el callback o funcion donde definiria que haria
@@ -28,14 +33,12 @@ function mostrar(){
     alert (document.cookie);
 }
 
-
-
-
-
-
-
-
-
+/*
+function crearCooki(){
+    nombre =prompt("Escribe el nombre de la cookie");
+    valor =prompt("escribe el valor de la cookie");
+}
+*/
 
 
 

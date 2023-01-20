@@ -5,7 +5,7 @@ miLlamada([
     "edad": 3,
     "color": "marron",
     "veneno":true,
-    "imagen":"/ejercicioJS/animales/spider.jpg",
+    "imagen":"animales/spider.jpg",
     "caracteristicas": [
       "tejedora",
       "veneno"
@@ -19,7 +19,7 @@ miLlamada([
     "edad": 2,
     "color": "negro",
     "veneno":false,
-    "imagen":"/ejercicioJS/animales/ant.jpg",
+    "imagen":"./animales/ant.jpg",
     "caracteristicas": [],
     "carnivoro":true,
     "herbivoro":false
@@ -29,7 +29,7 @@ miLlamada([
     "especie": "Escorpion",
     "edad": 4,
     "color": "negro",
-    "imagen":"/ejercicioJS/animales/scorpion.jpg",
+    "imagen":"./animales/scorpion.jpg",
     "veneno":true,
     "caracteristicas": [
       "duro",
@@ -48,7 +48,7 @@ miLlamada([
     "familia": "mamifero",
     "edad":3,
     "color":"blanco",
-    "imagen":"/ejercicioJS/animales/lobo.jpg",
+    "imagen":"./animales/lobo.jpg",
     "dieta":{
       "carnivoro":true,
       "herbivoro":false
@@ -60,7 +60,7 @@ miLlamada([
     "familia": "mamifero",
     "edad":2,
     "color":["blanco","negro"],
-    "imagen":"/ejercicioJS/animales/cow.jpg",
+    "imagen":"./animales/cow.jpg",
     "dieta":{
       "carnivoro":false,
       "herbivoro":true
@@ -72,7 +72,7 @@ miLlamada([
     "familia": "mamifero",
     "edad":2,
     "color":["rosa"],
-    "imagen":"/ejercicioJS/animales/pig.jfif",
+    "imagen":"./animales/pig.jfif",
     "dieta":{
       "carnivoro":true,
       "herbivoro":true
