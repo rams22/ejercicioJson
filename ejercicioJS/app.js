@@ -19,6 +19,7 @@ var miLlamada=function(datos){//js moderno seria: var miLlamada=datos=>{}
    app.animales.map(animal=>{
     //por cada animal pues pondre imagen, +=para sumarle
     html+="<h3>Nombre: "+animal.especie+"</h3> "+"<img src='"+animal.imagen+"'></img>";
+    html+="<h4>Carnivoro:"+animal.dieta.carnivoro+"<br> </h4>"
     html+="<hr>";
     })
    document.getElementById("resultado").innerHTML=html;//meto la variable

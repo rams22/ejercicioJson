@@ -15,6 +15,7 @@ window.onload=()=>{                                            //tipo click
                                 <th>
                                     ${animal.especie}
                                 </th>
+
                                 <th>
                                     <img src='${animal.imagen}'></img>
                                 </th>
